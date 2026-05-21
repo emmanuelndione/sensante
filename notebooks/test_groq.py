@@ -16,12 +16,12 @@ response = client.chat.completions.create(
     model="llama-3.1-8b-instant",
     messages=[
         {"role": "system",
-         "content": "Tu es un assistant medical senegalais. Reponds en francais simple. Maximum 3 phrases."},
+        "content": "Tu es un assistant medical senegalais. Reponds en wolof simple ou en francais melange de termes wolof. Maximum 3 phrases."},
         {"role": "user",
          "content": "Quels sont les symptomes du paludisme ?"}
     ],
     max_tokens=200,
-    temperature=0.3
+    temperature=0.0
 )
 
 print("=== Reponse de Llama 3 ===")
