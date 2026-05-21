@@ -1,5 +1,14 @@
 \# SenSante
 
+---
+title: Sensante
+emoji: 🏥
+colorFrom: green
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 
 
 Assistant de pre-diagnostic medical pour le Senegal.
